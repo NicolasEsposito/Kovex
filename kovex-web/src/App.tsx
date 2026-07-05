@@ -6,6 +6,7 @@ import Process from "./components/Process";
 import WhyUs from "./components/WhyUs";
 import About from "./components/About";
 import Testimonials from "./components/Testimonials";
+import Reviews from "./components/Reviews";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -21,6 +22,7 @@ export default function App() {
         <WhyUs />
         <About />
         <Testimonials />
+        <Reviews />
         <Contact />
       </main>
       <Footer />

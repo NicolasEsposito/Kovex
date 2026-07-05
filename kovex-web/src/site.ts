@@ -165,3 +165,31 @@ export const values = [
   "Mejora continua",
   "Cercanía con el cliente",
 ];
+
+export type Review = {
+  name: string;
+  role?: string;
+  rating: number; // 1 a 5
+  comment: string;
+  date: string; // ISO
+};
+
+/** Reseñas iniciales que se muestran antes de que la gente deje las suyas. */
+export const seedReviews: Review[] = [
+  {
+    name: "Martín G.",
+    role: "Comercio mayorista",
+    rating: 5,
+    comment:
+      "Nos armaron el sistema de stock y ventas en tiempo récord. Atención impecable.",
+    date: "2026-05-12",
+  },
+  {
+    name: "Lucía R.",
+    role: "Centro de salud",
+    rating: 5,
+    comment:
+      "La web y el sistema de turnos funcionan perfecto. Muy recomendables.",
+    date: "2026-06-02",
+  },
+];
